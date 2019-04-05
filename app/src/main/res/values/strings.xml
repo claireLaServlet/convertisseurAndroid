@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Convertisseur</string>
+    <string name="monnaie_a_convertir">Monnaie a convertir!</string>
+    <string name="button">Button</string>
+    <string name="monnaie_de_depart">Monnaie de depart</string>
+    <string name="monnaie_a_conv">Monnaie a convertir</string>
+    <string name="monnaie_convertie">Monnaie convertie</string>
+    <string name="btn_convertir">Convertir</string>
+    <string name="montant">Montant</string>
+    <string name="quitter">Quitter</string>
+</resources>

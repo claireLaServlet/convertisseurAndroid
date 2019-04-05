@@ -1,0 +1,13 @@
+
+        <resources>
+            <string name="app_name">Convert</string>
+            <string name="monnaie_a_convertir">currency to convert</string>
+            <string name="button">Button</string>
+            <string name="monnaie_de_depart">starting currency</string>
+            <string name="monnaie_a_conv">currency to convert</string>
+            <string name="monnaie_convertie">currency convert</string>
+            <string name="btn_convertir">convert</string>
+            <string name="montant">amount</string>
+            <string name="quitter">exit</string>
+        </resources>
+
