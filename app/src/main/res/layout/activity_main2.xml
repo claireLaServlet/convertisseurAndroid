@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+   style="@style/PagePresentation"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#e8c1c1"
-    android:orientation="vertical">
-
-
+    android:orientation="vertical"
+    tools:context=".PageResultat"
+    >
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="103dp"
         android:orientation="horizontal">
 
         <TextView
+            style="@style/textView"
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:layout_weight="1"
@@ -22,18 +24,19 @@
         <Spinner
             android:id="@+id/boxMonnaieAConv"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"/>
+            android:layout_height="70dp"
+            android:layout_weight="1" />
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="127dp"
         android:orientation="horizontal">
 
         <TextView
             android:id="@+id/textView2"
+            style="@style/textView"
             android:layout_width="match_parent"
             android:layout_height="79dp"
             android:layout_weight="1"
@@ -42,8 +45,8 @@
         <Spinner
             android:id="@+id/MonnaieConv"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"/>
+            android:layout_height="70dp"
+            android:layout_weight="1" />
 
 
     </LinearLayout>
@@ -51,13 +54,14 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="135dp"
         android:orientation="horizontal">
 
         <TextView
             android:id="@+id/textMontant"
+            style="@style/textView"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="36dp"
             android:layout_weight="1"
             android:text="@string/montant" />
 
@@ -67,7 +71,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
-            android:inputType="numberDecimal" />
+            android:inputType="numberDecimal"
+            android:textColor="#FF000000" />
     </LinearLayout>
 
 
@@ -81,7 +86,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="#f86067"
+
             android:text="@string/quitter" />
 
         <Button
@@ -89,14 +94,18 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="#dca4ea"
-            android:text="@string/btn_convertir"
 
-            android:onClick="convertir"/>
+            android:onClick="convertir"
+
+            android:text="@string/btn_convertir" />
 
 
     </LinearLayout>
 
+    <ImageView
+        android:id="@+id/licorne"
+        android:layout_width="411dp"
+        android:layout_height="83dp" />
 
 
 </LinearLayout>

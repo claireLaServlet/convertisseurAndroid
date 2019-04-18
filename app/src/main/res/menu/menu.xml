@@ -1,4 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
+        <item
+            android:id="@+id/Configurer"
+            android:icon="@mipmap/lic"
+            android:title="Configurer">
+
+                <menu android:id="@+id/sousmenu">
+                        <item
+                            android:id="@+id/langue"
+                            android:title="Langue" />
+                        <item
+                            android:id="@+id/date"
+                            android:title="Date" />
+                        <item
+                            android:id="@+id/affichage"
+                            android:title="affichage" />
+                </menu>
+        </item>
+        <item
+            android:id="@+id/Convertir"
+            android:layout_height="match_parent"
+            android:icon="@mipmap/lic"
+            android:title="Convertir"/>
+
+        <item
+            android:id="@+id/quitter"
+            android:icon="@drawable/sortie"
+            android:title="Quitter"
+            app:showAsAction="ifRoom"/>
 </menu>
